@@ -7,11 +7,13 @@
 #else:
 #    print("Eres mayor de edad")
 ###
-nota = 0
-if nota >=9:
+nota = 6
+if nota >= 9:
     print("Excelente")
-elif nota >=7:
+elif nota >=6:
     print("Bien")
+elif nota <=5:
+    print("Desaprobaste")
 elif nota  <= 0:
     print("Sos un burro")    
 
@@ -19,10 +21,10 @@ elif nota  <= 0:
 # y el else se utiliza para manejar el caso en que ninguna de las condiciones anteriores se cumple.
 
 print("Condiciones multiples")
-edad= 10
+edad2= 10
 tienes_carnet = False
 
-if edad >=18 and tienes_carnet:
+if edad2 >=18 and tienes_carnet:
     print("Puedes conducir")
 else:
     print("Policiaa")
@@ -34,30 +36,27 @@ else:
 # !   ---> not
 
 #Isla Margarita = "Venezuela"
-if edad >= 18 or tienes_carnet:
+edad2= 16
+if edad2 >= 18 or tienes_carnet:
     print("Puedes conducir")
 else: 
    print("Paga al policia")
 #Otro ejemplo de condicionales
 
-edad= int(input("¿Cuántos años tienes? "))
-tiene_dinero = False
 
-if edad >= 18 :
-    if tiene_dinero:
-        print("Puedes entrar al bar")
-    else :
-        print("No puedes entrar al bar")
-else:
-    print("No puedes entrar al bar, eres menor de edad")
-#Como hacerlo mas facil y simplificado 
+print("\n Anidar condicionales")
+edad = 20
+tiene_dinero = True
 
-if edad < 18:
-    print("No puedes entrar al bar, eres menor de edad")
-elif tiene_dinero:
-    print("Puedes entrar al bar")
+if edad >= 18:
+  if tiene_dinero:
+    print("Puedes ir a la discoteca")
+  else:
+    print("Quédate en casa")
 else:
-    print("No puedes entrar al bar, no tienes dinero")
+  print("No puedes entrar a la disco")
+
+#Otras cositas
 
 numero = 5
 if numero: #true de otra manera si es 0 es false
