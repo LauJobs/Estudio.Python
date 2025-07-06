@@ -32,8 +32,9 @@
 numero =int(input("Un numero positivo: "))
 prueba= 1
 factorial = 1
-while  prueba< numero :
+while  prueba<= numero :
   factorial*=prueba
   prueba += 1
   print(factorial)
-
+#Bien entonces prueba va a llegar hasta 5 multiplicando 1x1x2x3x4x5(Si no ponemos el igual(=) no va a llegar 5 por lo tanto el resultado en vez de ser 120 seria 24)
+#luego se va a sumar uno hasta que llegue al numero establecido.
