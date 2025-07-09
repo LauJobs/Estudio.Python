@@ -14,15 +14,6 @@ while len(ingrese_contraseña) <8:
        elif len(ingrese_contraseña) < 8:
         print("La contraseña debe tener 8 digitos,intentelo de nuevo.")
         
-    
-
-
-
-
-
-
-
-
 
 #Ta dificil los bucles che pero de aca no salgo hasta entenderlo jajaja
 #Asi lo hizo el.

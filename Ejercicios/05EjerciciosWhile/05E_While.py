@@ -12,12 +12,6 @@ while multiplica<=10:
     resultado= numero*multiplica
     print(f"{numero}x{multiplica}={resultado}")
     multiplica +=1
-
-
-
-
-
-
 #Estoy muy contento creo lo hice bien veremos!!
 #Asi lo hizo el, LITERAL LO HICE IGUAL por fin una buena jaja cool.(tengo todo muy junto asi que deberia en la proxima espaciar asi es mas facil de leer.)
 
