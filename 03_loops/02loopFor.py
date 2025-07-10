@@ -46,9 +46,9 @@ animales =["oveja","lobo","ciervo","lagarto"]
 animales_mayus = [animal.upper() for animal in animales]
 print(animales_mayus)
 
-# Comprensión de listas (list comprehension)
-animales = ["perro", "gato", "raton", "loro", "pez", "canario"]
-animales_mayus = [animal.upper() for animal in animales]
-print(animales_mayus)
+# Muestra los números pares de una lista
+pares = [num for num in [1, 2, 3, 4, 5, 6] if num % 2 == 0]
+print(pares)
+
 
     
