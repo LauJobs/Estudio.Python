@@ -3,5 +3,8 @@
 
 for num in range(5,51,5):
  print(num) 
- for num in range(1,10,-1):
-    print(num)
+
+
+print("\nEjercicio 3:")
+for i in range(5, 51, 5):  # El paso 5 genera los múltiplos de 5
+  print(i)
